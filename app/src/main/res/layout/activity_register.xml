@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img3"
+    tools:context=".RegisterActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="270dp"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-black"
+        android:id="@+id/register">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="220dp"
+        android:padding="30dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Enter Your Full Name"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/txtname"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Email"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/email"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Create Password"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/password" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/confirm"/>
+        
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <RadioButton
+                android:id="@+id/radiobutton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MALE"
+                android:fontFamily="serif-monospace"
+                android:textSize="15dp"
+                android:layout_marginLeft="75dp"/>
+            <RadioButton
+                android:id="@+id/radiobutton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FEMALE"
+                android:fontFamily="serif-monospace"
+                android:textSize="15dp"
+                android:layout_marginLeft="40dp"/>
+
+        </RadioGroup>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-black"
+            android:paddingLeft="6dp"
+            android:textColor="@color/Red"
+            android:id="@+id/reg_2"/>
+    </LinearLayout>
+
+</RelativeLayout>

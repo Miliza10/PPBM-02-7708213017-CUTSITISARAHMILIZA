@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img7"
+    tools:context=".Pen2Activity"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eggplant is a type of fruit that is commonly used as
+a vegetable in cooking. It is known for its smooth, glossy, and often
+purple or dark purple skin. The inner flesh can vary in color from white
+to various shades of green and can have a slightly bitter taste.
+Eggplant is a versatile ingredient used in a variety of culinary dishesaround the world. It can be grilled, roasted, sautéed, fried, or used in
+stews and curries. One popular dish that features eggplant is Eggplant Parmesan,
+where slices of eggplant are breaded, fried, and layered with tomato sauce and
+cheese. It is then baked until the cheese is melted and bubbly.Eggplant is a
+source of fiber, vitamins, and minerals and is often included in vegetarian and
+vegan diets. Its texture and ability to absorb flavors make it a favorite in many
+dishes, adding richness and depth to the flavor profiles."
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="280dp"
+        android:fontFamily="sans-serif"
+        android:textSize="15dp"/>
+
+
+    <ImageView
+        android:id="@+id/bck_2"
+        android:layout_width="56dp"
+        android:layout_height="45dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/Parple"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/baseline_arrow_back_24">
+
+    </ImageView>
+
+
+</RelativeLayout>

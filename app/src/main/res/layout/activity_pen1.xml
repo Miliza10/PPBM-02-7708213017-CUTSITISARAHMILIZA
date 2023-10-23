@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img8"
+    tools:context=".Pen1Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bayam (spinach) is a leafy green vegetable that is known for its vibrant green
+        leaves and nutritional richness. It is a versatile vegetable used in various
+        culinary dishes around the world. The leaves of spinach are typically tender
+        and have a mild, slightly earthy flavor.Spinach is prized for its nutritional
+        value, as it is a good source of essential vitamins and minerals. It is particularly
+        rich in nutrients such as vitamin A, vitamin C, vitamin K, and iron. Additionally, spinach
+        dietary fiber, making it beneficial for digestive health. Due to its nutrient density, spinach
+        is often considered a healthy food and is recommended as part of a balanced diet.Spinach is commonly used in salads,
+        soups, sautés, and as an ingredient in numerous other dishes. It can be enjoyed both raw and cooked, and its
+        versatility in the kitchen makes it a popular choice for those seeking to incorporate nutritious greens into their meals."
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="280dp"
+        android:fontFamily="sans-serif"
+        android:textSize="15dp"/>
+
+    <ImageView
+        android:id="@+id/bck_4"
+        android:layout_width="56dp"
+        android:layout_height="45dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/Parple"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/baseline_arrow_back_24">
+
+    </ImageView>
+
+
+</RelativeLayout>

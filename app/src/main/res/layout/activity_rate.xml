@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img11"
+    tools:context=".RateActivity">
+
+    <RatingBar
+        android:id="@+id/Ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="76dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize="1"
+
+        android:progressBackgroundTint="@color/Gray"
+        android:progressTint="@color/Parple"
+
+        />
+
+    
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Ratebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="270dp"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/Parple"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-black">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="45dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/bck_1"
+        android:backgroundTint="@color/Parple">
+    </ImageView>
+
+</RelativeLayout>
