@@ -8,7 +8,7 @@
     tools:context=".DashboardActivity"
     android:orientation="vertical"
     android:weightSum="10"
-    app:layout_constraintBaseline_toBaselineOf="parent">>
+    app:layout_constraintBaseline_toBaselineOf="parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,43 +30,44 @@
         </RelativeLayout>
 
         <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="8"
-            android:columnCount="2"
-            android:rowCount="3"
-            android:alignmentMode="alignMargins"
-            android:columnOrderPreserved="false"
-            android:padding="15dp">
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/d1"
-                app:cardBackgroundColor="@color/white"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_marginBottom="15dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="8dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="15dp"
-                    android:orientation="vertical">
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:columnCount="2"
+                    android:rowCount="3"
+                    android:alignmentMode="alignMargins"
+                    android:columnOrderPreserved="false"
+                    android:padding="15dp">
 
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="90dp"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/img13"
-                        android:id="@+id/img_13">
-                    </ImageView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/d1"
+                        app:cardBackgroundColor="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_margin="15dp"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/img13"
+                                android:id="@+id/img_13">
+                            </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -280,12 +281,12 @@
                         android:layout_height="90dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/img18"
-                        android:id="@+id/img_18">
+                        android:id="@+id/img_19">
                     </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="PAPRIKA"
+                        android:text="SAYURAN"
                         android:textSize="20dp"
                         android:textColor="@color/black"
                         android:textAlignment="center"

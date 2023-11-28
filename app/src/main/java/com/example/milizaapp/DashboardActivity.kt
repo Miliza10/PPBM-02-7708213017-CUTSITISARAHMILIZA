@@ -45,5 +45,10 @@ class DashboardActivity : AppCompatActivity() {
             val Intent = Intent (this,ScrollActivity::class.java)
             startActivity(Intent)
         }
+        val d6 =findViewById<CardView>(R.id.d6)
+        d6.setOnClickListener{
+            val Intent = Intent (this,SayurActivity::class.java)
+            startActivity(Intent)
+        }
     }
 }

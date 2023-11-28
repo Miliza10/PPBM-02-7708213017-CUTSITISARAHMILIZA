@@ -105,4 +105,64 @@
         <item>Image</item>
         <item>Profile</item>
     </string-array>
+
+    <string name="TomatDesc">
+        Tomat merupakan tumbuhan yang pertama kali ditemukan
+        di Amerika Selatan, nasih berkerabat dengan terung,
+        kentang dan paprika.Tomat termasuk buah karena
+        strukturnya mempunyai daging dan biji yang aman apabila tertelan.
+    </string>
+    <string name="JagungDesc">
+        Jagung adalah salah satu tanaman serealia penting di Indonesia,
+        selain sebagai tanaman bahan pangan pokok pengganti beras dalam
+        upaya diversifikasi pangan, jagung juga merupakan pakan ternak.
+    </string>
+    <string name="KacangpanjangDesc">
+        Kacang panjang adalah salah satu tanaman sayuran yang populer dalam
+        kuliner Asia Tenggara dan Asia Timur. Sayuran ini memiliki bentuk
+        panjang dan berisi biji-bijian yang dapat dikonsumsi. Selain rasanya
+        yang enak, kacang panjang juga memiliki banyak manfaat bagi kesehatan tubuh.
+    </string>
+    <string name="CabeijoDesc">
+        Cabai hijau besar (Capsicum annuum L.) merupakan salah satu bahan pangan nabati
+        yang banyak dikonsumsi oleh masyarakat. Jenis cabai hijau ini memiliki
+        flavor yang khas sehingga banyak ditambahkan dalam masakan.
+    </string>
+    <string name="wartelDesc">
+        Wortel (Daucus carota L) adalah jenis sayuran yang berwarna kuning kemerahan
+        atau jingga kekuningan dengan tekstur yang mirip seperti kayu (Malasari, 2005).
+        Bagian yang dapat dimakan dari wortel adalah bagian umbi atau akarnya.
+    </string>
+    <string name="BrokoliDesc">
+        Brokoli paling mirip dengan kembang kol, namun brokoli berwarna hijau,
+        sedangkan kembang kol putih. Brokoli merupakan tanaman yang hidup pada
+        cuaca dingin. Brokoli berasal dari daerah Laut Tengah dan sudah sejak
+        masa Yunani Kuno dibudidayakan. Sayuran ini masuk ke Indonesia belum
+        lama (sekitar 1970-an).
+    </string>
+    <string name="BayamDesc">
+        Bayam merupakan salah satu jenis tanaman hijau yang paling banyak
+        ditemui di Indonesia. Tanaman satu ini merupakan jenis sayuran yang
+        mudah diolah untuk makanan sehari-hari mulai dari sup, pecel, gado-gado,
+        sampai keripik. Amaranthus dubius ; biasa disebut juga dengan bayam petik.
+    </string>
+    <string name="TerongDesc">
+        Terong (Solanum melongena) merupakan jenis sayuran tahunan semusim. Selain India,
+        Indonesia dipercaya merupakan asal tanaman terong. Tanaman ini banyak dijumpai
+        tumbuh liar di hutan-hutan kita. Namun, saat ini terong ditanam
+        meluas diberbagai belahan bumi.
+    </string>
+    <string name="TimunDesc">
+        Mentimun atau timun (Cucumis sativus L.) merupakan salah satu jenis sayuran dari
+        family Cucurbitales yang sudah populer di seluruh dunia. Menurut sejarahnya tanaman
+        mentimun berasal dari benua Asia.
+    </string>
+    <string name="BitDesc">
+        Bit sebenarnya bukanlah buah, melainkan tanaman umbi-umbian yang tumbuh di dalam
+        tanah layaknya singkong dan ubi. Namun, karena bentuk dan warnanya, bit sering kali
+        disangka sebagai buah-buahan.
+    </string>
+
+
+
 </resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PenjelasanActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="110dp"
+        android:src="@drawable/pic1"
+        app:civ_border_width="5dp"
+        app:civ_border_color="@color/Red">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/sayur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="sans-serif"
+            android:text="Tomat"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PENJELASAN"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="80dp"
+            android:textColor="@color/Red"
+            android:fontFamily="sans-serif"
+            android:id="@+id/penjelasan"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TomatDesc"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:id="@+id/detail"/>
+    </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
