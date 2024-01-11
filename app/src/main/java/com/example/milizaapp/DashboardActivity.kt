@@ -24,7 +24,7 @@ class DashboardActivity : AppCompatActivity() {
         }
         val d2 =findViewById<CardView>(R.id.d2)
         d2.setOnClickListener{
-            val Intent = Intent (this,Pen2Activity::class.java)
+            val Intent = Intent (this,layouttab::class.java)
             startActivity(Intent)
         }
 

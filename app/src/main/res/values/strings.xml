@@ -162,7 +162,8 @@
         tanah layaknya singkong dan ubi. Namun, karena bentuk dan warnanya, bit sering kali
         disangka sebagai buah-buahan.
     </string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
